@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;
+}
+.navbar{
+    height: 60px;
+
+   background-color:  #0f1111;
+   color: white;
+   display: flex;
+   align-items: center;
+
+}
+.nav-logo{
+    height: 50px;
+    width: 128px;  
+}
+.logo{
+    background-image: url("logo1.png");
+    height: 40px;
+    width: 128px;
+    background-size: cover;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.address1{
+    font-size: 12px;
+    color: #CCCCCC;
+    margin-left: 15px;
+}
+.address2{
+    font-size: 14px;
+    color: #FFFFFF;
+    text-transform: bold;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+
+}
+.nav-search{
+    display: flex;
+}
+
